@@ -1,4 +1,3 @@
-import UserDetails from "@/components/global/user-details";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { ArrowDownToLine, CheckCircle, Leaf } from "lucide-react";
@@ -36,7 +35,6 @@ export default function Home () {
           Welcome to LibSync. Enjoy the best quality of open source books and
           publish your first digital book on our free platform.
         </p>
-        {/* <UserDetails/> */}
         <div className="flex flex-col sm:flex-row gap-4 mt-6">
           <Link href={"/trending"} className={buttonVariants()}>
             Browse Trending
